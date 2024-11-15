@@ -43,3 +43,13 @@ variable "desired_capacity" {
   description = "Desired capacity of the ASG"
 }
 
+variable "aws_access_key" {
+  type        = string
+  description = "aws_access_key"
+}
+
+variable "aws_secret_key" {
+  type        = string
+  description = "aws_secret_key"
+}
+
